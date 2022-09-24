@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.nav-container {
+  background-color: #475569;
+  color: white;
+  padding-left: 30px;
+}
+
+.checkbox-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.nav-heading {
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-heading {
+    font-size: 45px;
+  }
+  .nav-container {
+    padding-left: 70px;
+  }
+}
+
+.checkbox-item {
+  padding-bottom: 10px;
+}

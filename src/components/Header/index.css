@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.header {
+  background-color: #e2e8f0;
+  margin-top: 30px;
+  padding: 10px;
+  width: 85%;
+  text-align: center;
+}
+
+.header-title {
+  color: #475569;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    width: 80%;
+    padding: 20px;
+  }
+}
